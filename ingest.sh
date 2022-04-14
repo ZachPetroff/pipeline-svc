@@ -10,4 +10,4 @@ echo Enter Data URL:
 
 read data 
 
-wget data -O data.csv 
+wget $data -O data.csv 
