@@ -143,5 +143,6 @@ def get_svcs(url, target, outfile):
 
 if __name__=="__main__":
   url = sys.argv[0]
+  print(url)
   targ_col = sys.argv[1]
   get_svcs = get_svcs(url, targ_col, "svc.png")
