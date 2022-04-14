@@ -1,7 +1,5 @@
 #!/bin/bash
-
 sudo apt-get install wget
-
 # remove previous csv file
 rm *.csv
 # download new data 
